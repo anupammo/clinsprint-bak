@@ -1,0 +1,489 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link rel="shortcut icon" href="/favicon.ico" type="image/x-icon">
+    <link rel="icon" href="/favicon.ico" type="image/x-icon">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
+        integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+
+    <link rel="stylesheet" href="style.css">
+
+    <title>Clinical Data Management ClinSprint</title>
+</head>
+
+<body>
+    <header>
+        <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
+            <a class="navbar-brand" href="index.html">
+                <img src="content/photo/clinsprint-logo2.png" alt="" loading="lazy" class="py-0">
+            </a>
+            <!-- <a class="navbar-brand" href="home.html">ClinSprint</a> -->
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+                aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav mx-auto">
+                    <li class="nav-item active">
+                        <a class="nav-link" href="index.html">Home <span class="sr-only">(current)</span></a>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
+                            data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                            Training Services
+                        </a>
+                        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                            <a class="dropdown-item" href="course1.html">Clinical Data Management</a>
+                            <a class="dropdown-item" href="course2.html">Pharmacovigilance and Drug Safety</a>
+                            <a class="dropdown-item" href="course3.html">Medical Writing</a>
+                            <a class="dropdown-item" href="course4.html">ICH-GCP</a>
+                            <a class="dropdown-item" href="course5.html">Clinical SAS</a>
+                            <a class="dropdown-item" href="course6.html">Regulatory Affairs</a>
+                            <a class="dropdown-item" href="course7.html">Workshops And Events</a>
+                        </div>
+                    </li>
+                    <!-- <li class="nav-item">
+                <a class="nav-link" href="about.html">About</a>
+              </li> -->
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
+                            data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                            About Us
+                        </a>
+                        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                            <a class="dropdown-item" href="about.html">About ClinsPrint</a>
+                            <a class="dropdown-item" href="mission.html">Mission & Vission</a>
+                        </div>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="gallery.html">Gallery</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="blog.html">Blog</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="contact.html">Contact</a>
+                    </li>
+                    <!-- <li class="nav-item">
+              <a class="nav-link" href="faq.html">FAQ</a>
+            </li>
+            <div class="form-inline my-2 my-lg-0">
+              <a class="card-link mx-3" href="">Email</a>
+              <a class="card-link mx-3" href="">Phone</a>
+            </div> -->
+                </ul>
+                <ul class="navbar-nav">
+                    <li class="nav-item">
+                        <a class="card-link mx-3 text-white" href="mailto:info@clinsprint.com"
+                            title="info@clinsprint.com">
+                            <svg width="1.5em" height="1.5em" viewBox="0 0 16 16" class="bi bi-envelope-open"
+                                fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+                                <path fill-rule="evenodd"
+                                    d="M8.47 1.318a1 1 0 0 0-.94 0l-6 3.2A1 1 0 0 0 1 5.4v.818l5.724 3.465L8 8.917l1.276.766L15 6.218V5.4a1 1 0 0 0-.53-.882l-6-3.2zM15 7.388l-4.754 2.877L15 13.117v-5.73zm-.035 6.874L8 10.083l-6.965 4.18A1 1 0 0 0 2 15h12a1 1 0 0 0 .965-.738zM1 13.117l4.754-2.852L1 7.387v5.73zM7.059.435a2 2 0 0 1 1.882 0l6 3.2A2 2 0 0 1 16 5.4V14a2 2 0 0 1-2 2H2a2 2 0 0 1-2-2V5.4a2 2 0 0 1 1.059-1.765l6-3.2z" />
+                            </svg>
+                            <!-- <span>info@clinsprint.com</span> -->
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="card-link mx-3 text-white" href="tel:919999900000" title="+91-9999900000">
+                            <svg width="1.5em" height="1.5em" viewBox="0 0 16 16" class="bi bi-telephone-outbound"
+                                fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+                                <path fill-rule="evenodd"
+                                    d="M3.654 1.328a.678.678 0 0 0-1.015-.063L1.605 2.3c-.483.484-.661 1.169-.45 1.77a17.568 17.568 0 0 0 4.168 6.608 17.569 17.569 0 0 0 6.608 4.168c.601.211 1.286.033 1.77-.45l1.034-1.034a.678.678 0 0 0-.063-1.015l-2.307-1.794a.678.678 0 0 0-.58-.122l-2.19.547a1.745 1.745 0 0 1-1.657-.459L5.482 8.062a1.745 1.745 0 0 1-.46-1.657l.548-2.19a.678.678 0 0 0-.122-.58L3.654 1.328zM1.884.511a1.745 1.745 0 0 1 2.612.163L6.29 2.98c.329.423.445.974.315 1.494l-.547 2.19a.678.678 0 0 0 .178.643l2.457 2.457a.678.678 0 0 0 .644.178l2.189-.547a1.745 1.745 0 0 1 1.494.315l2.306 1.794c.829.645.905 1.87.163 2.611l-1.034 1.034c-.74.74-1.846 1.065-2.877.702a18.634 18.634 0 0 1-7.01-4.42 18.634 18.634 0 0 1-4.42-7.009c-.362-1.03-.037-2.137.703-2.877L1.885.511zM11 .5a.5.5 0 0 1 .5-.5h4a.5.5 0 0 1 .5.5v4a.5.5 0 0 1-1 0V1.707l-4.146 4.147a.5.5 0 0 1-.708-.708L14.293 1H11.5a.5.5 0 0 1-.5-.5z" />
+                            </svg>
+                            <!-- <span>+91-9999991111</span> -->
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+    <section class="cdm-header-bg">
+        <div class="container">
+            <div class="row">
+                <div class="col-12 my-5 pt-5">
+                    <h1 class="text-center text-shadow text-white my-5 pt-5">Clinical Data Management</h1>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section>
+        <div class="container my-5">
+            <div class="row">
+                <div class="col-12">
+                    <h2 class="text-center mb-5">Drug Development Processs</h2>                    
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-12 col-sm-1"></div>
+                <div class="col-12 col-sm-4">
+                    <div class="card my-2 border-dark">
+                        <div class="card-body">
+                            <p class="card-text text-center">
+                                <span>Discovery of new product</span>
+                                <br>
+                                <span>(Drug/Medical Device)</span>
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12 col-sm-2">
+                    <p class="text-center display-3 d-block d-sm-none">&darr;</p>
+                    <p class="text-center display-3 d-none d-sm-block">&rarr;</p>
+                </div>
+                <div class="col-12 col-sm-4">
+                    <div class="card my-2 border-dark">
+                        <div class="card-body">
+                            <p class="card-text text-center">
+                                <span>Pre Clinical Trail</span>
+                                <br>
+                                <span>(in vitro/ in vivo studies)</span>
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12 col-sm-1"></div>
+                <div class="col-12 col-sm-1"></div>                
+                <div class="col-12 col-sm-4"></div>
+                <div class="col-12 col-sm-2"></div>
+                <div class="col-12 col-sm-4">
+                    <p class="text-center display-3 mb-0">&darr;</p>
+                </div>
+                <div class="col-12 col-sm-1"></div>
+                <div class="col-12 col-sm-1"></div>
+                <div class="col-12 col-sm-4">
+                    <div class="card my-2 border-dark">
+                        <div class="card-body">
+                            <p class="card-text text-center">
+                                <span>Clinical Trail Phase I</span>
+                                <br>
+                                <span>(Dosage and Efficacy)</span>
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12 col-sm-2">
+                    <p class="text-center display-3 d-block d-sm-none">&darr;</p>
+                    <p class="text-center display-3 d-none d-sm-block">&larr;</p>
+                </div>
+                <div class="col-12 col-sm-4">
+                    <div class="card my-2 border-dark">
+                        <div class="card-body">
+                            <p class="card-text text-center">
+                                <span>Regulatory Submission</span>
+                                <br>
+                                <span>for IND</span>
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12 col-sm-1"></div>
+                <div class="col-12 col-sm-1"></div>
+                <div class="col-12 col-sm-4">
+                    <p class="text-center display-3 mb-0">&darr;</p>
+                </div>
+                <div class="col-12 col-sm-2"></div>
+                <div class="col-12 col-sm-4"></div>
+                <div class="col-12 col-sm-1"></div>
+                <div class="col-12 col-sm-1"></div>
+                <div class="col-12 col-sm-4">
+                    <div class="card my-2 border-dark">
+                        <div class="card-body">
+                            <p class="card-text text-center">
+                                <span>Clinical Trail Phase II</span>
+                                <br>
+                                <span>(Efficacy and Side Effects)</span>
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12 col-sm-2">
+                    <p class="text-center display-3 d-block d-sm-none">&darr;</p>
+                    <p class="text-center display-3 d-none d-sm-block">&rarr;</p>
+                </div>
+                <div class="col-12 col-sm-4">
+                    <div class="card my-2 border-dark">
+                        <div class="card-body">
+                            <p class="card-text text-center">
+                                <span>Clinical Trail Phase III</span>
+                                <br>
+                                <span>(Efficacy/Monitoring the adverse effect)</span>
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12 col-sm-1"></div>
+                <div class="col-12 col-sm-1"></div>
+                <div class="col-12 col-sm-4"></div>
+                <div class="col-12 col-sm-2"></div>
+                <div class="col-12 col-sm-4">
+                    <p class="text-center display-3 mb-0">&darr;</p>
+                </div>
+                <div class="col-12 col-sm-1"></div>
+                <div class="col-12 col-sm-1"></div>
+                <div class="col-12 col-sm-4">
+                    <div class="card my-2 h-100 border-dark">
+                        <div class="card-body">
+                            <p class="card-text text-center mt-3">
+                                <span>Clinical Trail Phase IV</span>
+                                <br>
+                                <span>(Efficacy/Safety)</span>
+                                <br>
+                                <span>Post Marketing Surveillance Study</span>
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12 col-sm-2 mt-4">
+                    <p class="text-center display-3 d-block d-sm-none">&darr;</p>
+                    <p class="text-center display-3 d-none d-sm-block">&larr;</p>
+                </div>
+                <div class="col-12 col-sm-4">
+                    <div class="card my-2 h-100 border-dark">
+                        <div class="card-body mt-3">
+                            <p class="card-text text-center mt-3">
+                                <span>Regulatory Submission</span>
+                                <br>
+                                <span>for NDA</span>
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12 col-sm-1"></div>
+            </div>
+        </div>
+    </section>
+    <section class="my-5">
+        <div class="container">
+            <div class="row">
+                <div class="col-12 col-sm-6">
+                    <h2 class="mb-5">What is Clinical Data Management</h2>
+                    <p class="text-justify">
+                        Clinical data management (CDM) is a process of handling the data during clinical trials.
+                        Clinical data is one of most valuable assets for sponsor research and pharmaceutical product
+                        manufacturers. CDM is a critical phase in clinical research, which leads to generation of
+                        high-quality,reliable, and statistically sound data from the clinical trials. The clinical trial
+                        can be conducted in one or multi-center research sites, and during the clinical trial, the
+                        investigator collects the data in the patients.Clinical research has become impossible without
+                        the use of CDMS to handle the increasing amount of data that must be collected, processed and
+                        analyzed for clinical trials.CDM includes the CRF designing and annotation, data entry, data
+                        validation,medical coding, database locking, data analysis, and clinical report generation.
+                    </p>
+                </div>
+                <div class="col-12 col-sm-6">
+                    <img src="https://images.pexels.com/photos/3825539/pexels-photo-3825539.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=600"
+                        alt="" class="img-fluid">
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="my-5">
+        <div class="container">
+            <div class="row">
+                <div class="col-12 col-sm-6">
+                    <img src="https://images.pexels.com/photos/3825539/pexels-photo-3825539.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=600"
+                        alt="" class="img-fluid">
+                </div>
+                <div class="col-12 col-sm-6">
+                    <h2 class="mb-5">THE CDM PROCESS</h2>
+                    <p class="text-justify">
+                        A Case Report Form (CRF) is designed by the CDM team for data collection from protocol-specific
+                        activities. The CRF may exist in either a paper version or as electronic data capture (EDC). The
+                        CRF will be annotated with coded terms to communicate where the data collected for each question
+                        is to be stored in the database.The next item developed is the Data Management Plan.
+                    </p>
+                    <p class="text-justify">
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut
+                        labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco
+                        laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in
+                        voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat
+                        non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+                    </p>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-12">
+                    <p class="text-justify">
+                        (DMP), which details how the data are to be handled according to how the study is anticipated to
+                        be run. A DMP describes the CDM activities to be followed in the trial, including trial master
+                        file maintenance, CRF specification,database design, data collection, CRF tracking, data
+                        entry,data storage and privacy, medical coding, data reconciliation(eg, serious adverse events
+                        and central laboratory data), data review, discrepancy management, data extraction, and database
+                        lock. The DMP is intended to standardize procedures and ensure that all CDM personnel understand
+                        the plan.
+                    </p>
+                    <p class="text-justify">
+                        Next, a Data Validation Manual (DVM) is developed.This document contains the edit check programs
+                        for discrepancy identification.The edit check programs in the DVM help the site, monitoring, and
+                        CDM staff identify any discrepancies during data cleanup. Entry of data that are not validated
+                        may prompt a request for clarification. This process, called discrepancy management or query
+                        resolution,is put into place to investigate the reason for the discrepancies; ideally,
+                        discrepancies should be resolved quickly.Queries slow the progress of data analysis, so closing
+                        queries promptly helps to ensure that the trial continues to hit timelines without ignoring data
+                        points or losing subjects.EDC systems must capture any change to data after it has been saved
+                        and all discrepancies that are generated in an audit trail. Discrepancies should be reviewed at
+                        regular intervals by the CDM team to ensure that they are being resolved in a timely manner.
+                        Coding of all medical terms reported allows standardization when it comes time for the data to
+                        be analyzed and reviewed.Information on adverse events, medical history, and concomitant
+                        medications must be coded in a uniform manner. This is especially important in multicenter
+                        trials in which multiple investigators collect and report information.Finally, a database lock
+                        is put in place after all data management activities are complete to ensure there was no
+                        manipulation of study data after unmasking of the treatment groups and during the final
+                        analysis. A prelock checklist should be used to confirm that all necessary activities have been
+                        completed.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="my-5">
+        <div class="container">
+            <div class="row">
+                <div class="col-12 col-sm-6">
+                    <h2 class="mb-5">Roles and Responsibilities</h2>
+                    <p class="text-justify">
+                        In a CDM team, different roles and responsibilities are attributed to the team members. The list
+                        of roles given below can be considered as minimum requirements for a CDM team.
+                    </p>
+                    <ul class="list-group list-group-flush">
+                        <li class="list-group-item border-0">
+                            <span class="badge badge-primary badge-pill">1</span>
+                            Data Manager
+                        </li>
+                        <li class="list-group-item border-0">
+                            <span class="badge badge-primary badge-pill">2</span>
+                            Database Programmer/Designed
+                        </li>
+                        <li class="list-group-item border-0">
+                            <span class="badge badge-primary badge-pill">3</span>
+                            Medical Coder
+                        </li>
+                        <li class="list-group-item border-0">
+                            <span class="badge badge-primary badge-pill">4</span>
+                            Clinical Data Coordinator
+                        </li>
+                        <li class="list-group-item border-0">
+                            <span class="badge badge-primary badge-pill">5</span>
+                            Quality Control Associate
+                        </li>
+                        <li class="list-group-item border-0">
+                            <span class="badge badge-primary badge-pill">6</span>
+                            Data Entry Associate
+                        </li>
+                      </ul>
+                </div>
+                <div class="col-12 col-sm-6">
+                    <img src="https://images.pexels.com/photos/3825539/pexels-photo-3825539.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=600"
+                        alt="" class="img-fluid">
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="my-5">
+        <div class="container">
+            <div class="row">
+                <div class="col-12">
+                    <p class="text-center h2 mb-5">Process flow of Clinical Data Management in clinical Trials</p>
+                </div>
+                <div class="col-12 text-center">
+                    <p class="btn btn-outline-dark rounded-pill px-5 py-2">Protocol</p>
+                    <p class="text-center h3">↓</p>
+                </div>
+                <div class="col-12 text-center">
+                    <p class="btn btn-outline-dark rounded-pill px-5 py-2 mb-5">Clinical Data Management (CDM)</p>
+                </div>
+                <div class="col-12 col-sm-6 text-center">
+                    <p class="btn btn-outline-success rounded-pill px-5 py-2">Study Design</p>
+                    <br>
+                    <p class="text-center text-success h3">↓</p>
+                    <p class="btn btn-outline-success rounded-pill px-5 py-2">CRF Design</p>
+                    <br>
+                    <p class="text-center text-success h3">↓</p>
+                    <p class="btn btn-outline-success rounded-pill px-5 py-2">Programming</p>
+                    <br>
+                    <p class="text-center text-success h3">↓</p>
+                    <p class="btn btn-outline-success rounded-pill px-5 py-2">Quality Control</p>
+                </div>
+
+
+                <div class="col-12 col-sm-6 text-center">
+                    <p class="btn btn-outline-primary rounded-pill px-5 py-2">Study Conduct</p>
+                    <br>
+                    <p class="text-center text-primary h3">↓</p>
+                    <p class="btn btn-outline-primary rounded-pill px-5 py-2">Data Entry (Site Data/Lab Data)</p>
+                    <br>
+                    <p class="text-center text-primary h3">↓</p>
+                    <p class="btn btn-outline-primary rounded-pill px-5 py-2">Edit Check</p>
+                    <br>
+                    <p class="text-center text-primary h3">↓</p>
+                    <p class="btn btn-outline-primary rounded-pill px-5 py-2">Data Validation</p>
+                    <br>
+                    <p class="text-center text-primary h3">↓</p>
+                    <p class="btn btn-outline-primary rounded-pill px-5 py-2">Database Lock</p>
+                    <br>
+                    <p class="text-center text-primary h3">↓</p>
+                    <p class="btn btn-outline-primary rounded-pill px-5 py-2">Data Analysis</p>
+                    <br>
+                    <p class="text-center text-primary h3">↓</p>
+                    <p class="btn btn-outline-primary rounded-pill px-5 py-2">Report Generation</p>
+                </div>
+            </div>
+        </div>
+    </section>
+    <footer class="bg-light pt-4">
+        <div class="container">
+            <div class="row">
+                <div class="col-12">
+                    <div class="text-center mb-3">
+                        <a href="" class="card-link">
+                            <img src="content/icon/facebook.png" alt="">
+                        </a>
+                        <a href="" class="card-link">
+                            <img src="content/icon/twitter.png" alt="">
+                        </a>
+                        <a href="" class="card-link">
+                            <img src="content/icon/linkedin.png" alt="">
+                        </a>
+                        <a href="" class="card-link">
+                            <img src="content/icon/youtube.png" alt="">
+                        </a>
+                        <a href="" class="card-link">
+                            <img src="content/icon/pinterest.png" alt="">
+                        </a>
+                        <a href="" class="card-link">
+                            <img src="content/icon/instagram.png" alt="">
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="container">
+            <div class="row">
+                <div class="col-12">
+                    <p class="text-center">All Rights Reserved © ClinSprint 2020</p>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+        integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"
+        integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN"
+        crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"
+        integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>

@@ -1,0 +1,153 @@
+/* Stylesheet by https://anupammondal.in */
+
+/* 
+Color gradient pink  
+#993399 and #ff3399 
+-------------------
+Color gradient blue 
+#66ffff and #0066ff 
+*/
+h1, h2, h3, h4, h5, h6 {
+    font-family: 'Trirong', serif;
+}
+p, a {
+    font-family: 'Merriweather', serif;
+}
+.bg-1 {
+    background: rgb(153, 51, 153);
+    background: linear-gradient(0deg, rgba(153, 51, 153, 1) 0%, rgba(255, 51, 153, 1) 100%);
+}
+
+.bg-6 {
+    background: rgb(102, 255, 255);
+    background: linear-gradient(0deg, rgba(102, 255, 255, 1) 0%, rgba(0, 102, 255, 1) 100%);
+}
+
+.bg-2 {
+    background-image: linear-gradient(to right, #fa709a 0%, #fee140 100%);
+}
+
+.bg-3 {
+    background-image: linear-gradient(to top, #30cfd0 0%, #330867 100%);
+}
+
+.bg-4 {
+    background-image: linear-gradient(180deg, #2af598 0%, #009efd 100%);
+}
+
+.bg-5 {
+    background-image: linear-gradient(to right, #b8cbb8 0%, #b8cbb8 0%, #b465da 0%, #cf6cc9 33%, #ee609c 66%, #ee609c 100%);
+}
+
+.dual-bg-1 {
+    background-image: linear-gradient(300deg, #00c6fb 8%, #005bea 92%);
+}
+
+.text-shadow {
+    text-shadow: #000000 0px 0px 5px;
+}
+
+.bg-transparent {
+    background-color: #000000cc!important;
+}
+
+.bg-color-primary {
+    background: rgb(0, 0, 0, 0);
+    background: linear-gradient(180deg, rgba(0, 0, 0, 0) 30%, rgba(255, 255, 255, 0) 30%);
+}
+
+.bg-color-light {
+    background: rgb(248, 249, 250);
+    background: linear-gradient(365deg, rgba(248, 249, 250, 1) 45%, rgba(255, 255, 255, 0) 45%);
+}
+
+.header-bg {
+    background-image: url('https://images.pexels.com/photos/1254735/pexels-photo-1254735.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940');
+    background-position: center;
+    background-size: cover;
+}
+
+.contact-header-bg {
+    background-image: url('https://images.pexels.com/photos/263564/pexels-photo-263564.jpeg?auto=compress&cs=tinysrgb&h=750&w=1260');
+    background-position: center;
+    background-size: cover;
+}
+
+.cdm-header-bg {
+    background-image: url('https://images.pexels.com/photos/3184357/pexels-photo-3184357.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940');
+    background-position: center;
+    background-size: cover;
+}
+
+.blog-header-bg {
+    background-image: url('https://images.pexels.com/photos/262508/pexels-photo-262508.jpeg?auto=compress&cs=tinysrgb&h=750&w=1260');
+    background-position: center;
+    background-size: cover;
+}
+
+.we-header-bg {
+    background-image: url('https://images.pexels.com/photos/2255441/pexels-photo-2255441.jpeg?auto=compress&cs=tinysrgb&h=750&w=1260');
+    background-position: center;
+    background-size: cover;
+}
+
+.sas-header-bg {
+    background-image: url('https://images.pexels.com/photos/185576/pexels-photo-185576.jpeg?auto=compress&cs=tinysrgb&h=750&w=1260');
+    background-position: center;
+    background-size: cover;
+}
+
+.teacher-reg-header-bg {
+    background-image: url('https://images.pexels.com/photos/3184291/pexels-photo-3184291.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940');
+    background-position: center;
+    background-size: cover;
+}
+
+.overlap-style {
+    margin-top: -120px;
+}
+
+#card-bg-medicine {
+    background-image: url('https://images.pexels.com/photos/3652097/pexels-photo-3652097.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=400');
+    background-position: center;
+    background-size: cover;
+}
+
+#home-header-bg {
+    background-color: rgb(37, 39, 40);
+    background-image: url('https://images.pexels.com/photos/2277784/pexels-photo-2277784.jpeg?auto=compress&cs=tinysrgb&h=750&w=1260');
+    background-size: cover;
+    background-position: right;
+    background-repeat: no-repeat;
+}
+
+.header-gradient-bg-right {
+    background: rgb(37, 39, 40);
+    background: linear-gradient(70deg, rgba(37, 39, 40, 1) 10%, rgba(255, 255, 255, 0) 20%);
+}
+
+.parallax {
+    background-image: url('https://image.freepik.com/free-vector/medical-science-banner-blue-color-shade_1017-24286.jpg');
+    height: 520px;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+@media screen and (min-width: 687px) {
+    .header-gradient-bg-left {
+        width: 50%;
+        background: rgb(37, 39, 40);
+    }
+    #home-header-bg {
+        background-color: rgb(37, 39, 40);
+        background-image: url('https://images.pexels.com/photos/2277784/pexels-photo-2277784.jpeg?auto=compress&cs=tinysrgb&h=750&w=1260');
+        background-size: contain;
+        background-position: right;
+        background-repeat: no-repeat;
+    }
+    .parallax {
+        height: 350px;
+    }
+}
